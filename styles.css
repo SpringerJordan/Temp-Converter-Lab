@@ -18,13 +18,24 @@ button{
 h3{
     text-align: center;
 }
-label{
-    /* float: center; */
-}
+
 div{
     text-align: justify;
     text-justify: inter-word;
 }
 #temp{
     margin-left: 49%;
+}
+#fahrenheit{
+    margin-left: 49%;
+
+}
+#to-kelvin{
+    margin-left: 49%;
+
+}
+
+#to-rankine{
+    margin-left: 49%;
+
 }
