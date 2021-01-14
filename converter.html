@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div>
+        <h1 class="temp-scale">Temperature Scale Converter</h1>
+        <p>Fahrenheit</p>
+        <label for="textBox">Value</label>
+        <input type="number" id="textBox" name="textBox" style="width: 100px;">
+        <select name="scale" id="scale">
+            <option> Fahrenhiet</option>
+            <option>Celsius</option>
+        </select>
+
+        <button onclick="fahrenheitConverter()"> Calculate </button>
+        <div>
+            <h3> Fahrenheit</h3>
+            <p id="fahrenheit" style=" margin-left: 49%;"></p>
+            <h3>Celsius</h3>
+            <p id="temp"></p>
+
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

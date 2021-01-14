@@ -1,0 +1,30 @@
+body{
+   border-style: solid;
+   border-width: .1ch;
+}
+h1 {
+    text-align: center;
+    text-justify: inter-word;
+  }
+p{
+    display: inline;
+   margin: 20%;
+   }
+button{
+    background-color:lightblue;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+h3{
+    text-align: center;
+}
+label{
+    /* float: center; */
+}
+div{
+    text-align: justify;
+    text-justify: inter-word;
+}
+#temp{
+    margin-left: 49%;
+}
